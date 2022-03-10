@@ -7,7 +7,7 @@
     <img src="images/docker.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Mini Linux</h3>
+  <h3 align="center">Mini Linux Env</h3>
 
   <p align="center">
     Linux environment with easy linux tools access for non-linux devs.
