@@ -71,12 +71,13 @@ First make sure you have
 ### Installation
 
 1. Clone the repo inside your project
-   ```
-   ./your_project
-   | - mini_linux_env
+   ```bash
+   ── your_project
+      └── mini_linux_env
    ```
 2. Run the shell script
    ```sh
+   cd mini_linux_env
    ./run_container.sh
    ```
 
