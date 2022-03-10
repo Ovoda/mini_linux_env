@@ -42,8 +42,6 @@ Here's why I created this tool and why I use it:
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * [Docker](https://docker.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -53,15 +51,21 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Here is how to use this tool.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
+First make sure you have
+* docker and docker-compose
+* a Makefile rule for linux compilation
+  ```
+  UNAME_S := $(shell uname -s)
+  ifeq ($(UNAME_S),Linux)
+	  # Linux compilation logic
+  endif
+  ifeq ($(UNAME_S),Darwin)
+	  # MacOS compilation logic
+  endif
   ```
 
 ### Installation
