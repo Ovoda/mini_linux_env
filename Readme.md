@@ -36,6 +36,15 @@ Here's why I created this tool and why I use it:
 * Useful to make sure the project also compiles correctly on linux.
 * Shared volume : you can make changes on your project directly from the container
 
+Pre installed :
+* curl
+* git
+* zsh && Oh-My-Zsh
+* vim
+* clang
+* valgrind
+* make
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
