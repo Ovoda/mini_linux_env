@@ -1,6 +1,7 @@
 version: '2'
 services:
     linux:
+        container_name: mini_linux_env
         image: mini_linux
         volumes:
             - ../:/project
