@@ -65,7 +65,7 @@ Here is how to use this tool.
 ### Prerequisites
 
 First make sure you have
-* docker and docker-compose
+* docker installed and running
 * a Makefile rule for linux compilation (for project requiring compilation)
   ```Makefile
   # something like this
