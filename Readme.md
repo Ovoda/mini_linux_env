@@ -10,8 +10,7 @@
   <h3 align="center">Mini Linux</h3>
 
   <p align="center">
-    Run your project on linux from macOS.
-    Useful for valgrind, clang++, etc...
+    Linux environment with easy linux tools access for non-linux devs.
     <br />
     <a href="https://github.com/Ovoda/mini_linux_env/issues">Report Bug</a>
     ·
@@ -31,10 +30,10 @@ With this tool you can build your project and run it in linux.
 Make sure your makefile compiles both mac an linux.
 
 Here's why I created this tool and why I use it:
-* No need for a heavy Virtual Machine, linux runs in a light weight Docker container.
+* Access Linux without needing a heavy Virtual Machine, here Linux runs in a light weight Docker container.
 * Ease of access and ease of use : just run a shell script and your project is running on linux.
 * Access to "linux only" tools like valgrind
-* Good way to make sure the project also compiles on linux.
+* Useful to make sure the project also compiles correctly on linux.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
