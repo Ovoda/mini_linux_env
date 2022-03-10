@@ -1,0 +1,6 @@
+version: '2'
+services:
+    linux:
+        image: mini_linux
+        volumes:
+            - ../:/project
