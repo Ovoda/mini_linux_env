@@ -58,7 +58,8 @@ Here is how to use this tool.
 First make sure you have
 * docker and docker-compose
 * a Makefile rule for linux compilation
-  ```
+  ```Makefile
+  # something like this
   UNAME_S := $(shell uname -s)
   ifeq ($(UNAME_S),Linux)
 	  # Linux compilation logic
