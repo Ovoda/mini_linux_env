@@ -7,7 +7,7 @@
     <img src="images/docker.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Mini Linux</h3>
+  <h3 align="center">Mini Linux Env</h3>
 
   <p align="center">
     Linux environment with easy linux tools access for non-linux devs.
@@ -30,11 +30,21 @@ With this tool you can build your project and run it in linux.
 Make sure your makefile compiles both mac an linux.
 
 Here's why I created this tool and why I use it:
-* Access Linux without needing a heavy Virtual Machine, here Linux runs in a light weight Docker container.
-* Ease of access and ease of use : just run a shell script and your project is running on linux.
-* Access to "linux only" tools like valgrind
-* Useful to make sure the project also compiles correctly on linux.
-* Shared volume : you can make changes on your project directly from the container
+* Easy and quick access to Linux without needing a "heavy" Virtual Machine, here Linux runs on a light weight Docker container.
+* Easy to use,  just run a shell script and your project is on linux.
+* Easy access to Linux-only tools like valgrind
+* Useful to make sure your project compiles correctly on linux
+
+The container uses a shared volume, you can edit on MacOS and run on Linux and vice-versa
+
+Pre installed :
+* curl
+* git
+* zsh && Oh-My-Zsh
+* vim
+* clang
+* valgrind
+* make
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -56,8 +66,8 @@ Here is how to use this tool.
 ### Prerequisites
 
 First make sure you have
-* docker and docker-compose
-* a Makefile rule for linux compilation (for project requiring compilation)
+* Docker installed and running
+* A Makefile rule for linux compilation (for projects requiring compilation)
   ```Makefile
   # something like this
   UNAME_S := $(shell uname -s)
