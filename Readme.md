@@ -13,10 +13,9 @@
     Run your project on linux from macOS.
     Useful for valgrind, clang++, etc...
     <br />
+    <a href="https://github.com/Ovoda/mini_linux_env/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/Ovoda/mini_linux_env/issues">Request Feature</a>
   </p>
 </div>
 
@@ -26,18 +25,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This project is a docker container running Ubuntu meant to ease the access to linux tools for macOS developers.
+With this tool you can build your project and run it in linux.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Make sure your makefile compiles both mac an linux.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+Here's why I created this tool and why I use it:
+* No need for a heavy Virtual Machine, linux runs in a light weight Docker container.
+* Ease of access and ease of use : just run a shell script and your project is running on linux.
+* Access to "linux only" tools like valgrind
+* Good way to make sure the project also compiles on linux.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
