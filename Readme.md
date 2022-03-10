@@ -34,6 +34,7 @@ Here's why I created this tool and why I use it:
 * Ease of access and ease of use : just run a shell script and your project is running on linux.
 * Access to "linux only" tools like valgrind
 * Useful to make sure the project also compiles correctly on linux.
+* Shared volume : you can make changes on your project directly from the container
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
